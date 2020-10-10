@@ -98,8 +98,7 @@ using namespace std;
         cout << "Enter the filename.txt with board layout" << endl;
         cin >> layoutFile;
 
-        // check if the file the user input exists
-        // http://www.cplusplus.com/forum/beginner/8388/
+
         ifstream myfile;
         myfile.open(layoutFile);
         if (myfile.is_open()) {
@@ -724,11 +723,3 @@ using namespace std;
     }
     gameMode(boardLength, boardWidth, transferBoard);
   }
-
-
-// german class notes on declaring matrix
-// char **myGrid;
-// myGrid = new char*[row]
-// for (        )
-//     myGrid[i][j] = '-';
-// create an array of column sizes for each row which is the actual array

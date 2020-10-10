@@ -11,6 +11,8 @@ main.cpp
 test.txt
 
 3.) Known errors
+Asking for a random number is infinity and I needed help... :(
+I think some parts of codes had issues when integration happened with some functions I searched online!
 
 4.) References
   1. uses input file from: http://www.cplusplus.com/doc/tutorial/files/
